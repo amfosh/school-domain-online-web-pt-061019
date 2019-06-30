@@ -21,4 +21,4 @@ def grade(grade)
 end
 
 def sort 
-  
+  self.roster
