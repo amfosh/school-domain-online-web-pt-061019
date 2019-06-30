@@ -7,6 +7,6 @@ class School
   end
   
   def add_student(name, grade)
-    if @roster[grade]
+    if @roster.has kay? 
   end
 end
