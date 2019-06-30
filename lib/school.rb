@@ -7,8 +7,8 @@ class School
   end
   
   def add_student(name, grade)
-    roster[grade] ||= []
-    roster[grade] << name
+    @roster[grade] ||= []
+    @roster[grade] << name
   end
 end
 
@@ -17,7 +17,7 @@ def grade(grade)
 end
 
 def sort 
-  self.roster.each do |grade, students|
+  @roster.each do |grade, students|
     students.sort!
   end
 end
