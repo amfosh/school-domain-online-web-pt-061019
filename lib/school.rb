@@ -10,7 +10,6 @@ class School
     @roster[grade] ||= []
     @roster[grade] << name
   end
-end
 
 def grade(grade)
   @roster[grade]
